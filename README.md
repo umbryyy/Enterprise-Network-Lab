@@ -21,8 +21,6 @@ The lab focuses on:
 
 The project was designed as a practical environment for studying and demonstrating enterprise networking concepts.
 
-```
-
 The Hyper-V virtual switch `LAB-LAN` carries the internal VLAN traffic.
 
 pfSense provides:
