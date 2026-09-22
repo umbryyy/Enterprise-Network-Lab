@@ -319,30 +319,6 @@ nslookup -type=SRV _ldap._tcp.dc._msdcs.corp.lab
 Get-VM
 Get-VMNetworkAdapter
 Get-VMNetworkAdapterVlan
-```
-
----
-
-## 📚 Documentation
-
-Detailed documentation is available in the [`docs/`](docs/) directory.
-
-```text
-docs/
-├── 01-overview.md
-├── 02-network-topology.md
-├── 03-vlans-and-ip-plan.md
-├── 04-hyper-v.md
-├── 05-pfsense.md
-├── 06-active-directory.md
-├── 07-dhcp-dns.md
-├── 08-dmz.md
-├── 09-firewall.md
-├── 10-testing.md
-├── 11-troubleshooting.md
-└── 12-lessons-learned.md
-```
-
 ---
 
 ## Technologies
