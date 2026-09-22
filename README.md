@@ -21,31 +21,6 @@ The lab focuses on:
 
 The project was designed as a practical environment for studying and demonstrating enterprise networking concepts.
 
----
-
-## 🏗️ Network Architecture
-
-```text
-                         INTERNET
-                            │
-                         LAB-WAN
-                            │
-                     ┌──────▼──────┐
-                     │   pfSense   │
-                     │ Firewall    │
-                     │ Router      │
-                     └──────┬──────┘
-                            │
-                       802.1Q TRUNK
-                            │
-                     ┌──────▼──────┐
-                     │   LAB-LAN   │
-                     │   Hyper-V   │
-                     └───┬───┬───┬─┘
-                         │   │   │
-                      VLAN10 VLAN20 VLAN30
-                         │   │   │
-                        DC01 Client01 Web01
 ```
 
 The Hyper-V virtual switch `LAB-LAN` carries the internal VLAN traffic.
